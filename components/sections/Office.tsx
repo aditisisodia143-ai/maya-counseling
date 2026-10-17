@@ -11,13 +11,13 @@ export default function Office() {
           <p className="mt-5 text-lg leading-relaxed">{text}</p>
           <p className="mt-4 font-semibold text-primary">📍 {address}</p>
         </div>
-        <div className="mt-12 grid gap-4 md:grid-cols-3">
+        <div className="mt-12 grid gap-4 md:grid-cols-2">
           {images.map((src, i) => (
             <img
               key={src}
               src={src}
               alt={`Therapy office in Santa Monica, view ${i + 1}`}
-              className="h-64 w-full rounded-2xl bg-primary/10 object-cover md:h-80"
+              className="h-64 w-full rounded-2xl bg-primary/10 object-cover md:h-96"
             />
           ))}
         </div>

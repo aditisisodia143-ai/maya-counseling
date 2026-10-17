@@ -6,8 +6,9 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Therapy in Santa Monica, CA | Dr. Maya Reynolds, PsyD",
-  description: "TODO: write after the profile is pasted",
+  title: "Anxiety & Trauma Therapy in Santa Monica, CA | Dr. Maya Reynolds",
+  description:
+    "Santa Monica clinical psychologist offering anxiety, trauma (EMDR), and burnout therapy for adults. In-person and secure telehealth across California.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
