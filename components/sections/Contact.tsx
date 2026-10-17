@@ -1,0 +1,28 @@
+import { content } from "@/data/content";
+
+export default function Contact() {
+  return (
+    <>
+      <section id="contact" className="bg-primary text-white">
+        <div className="mx-auto max-w-3xl px-6 py-16 text-center md:py-24">
+          <h2 className="font-heading text-3xl md:text-4xl">Ready to take the first step?</h2>
+          <p className="mt-5 text-lg opacity-90">
+            Reach out to schedule a consultation with Dr. Maya Reynolds in Santa Monica, CA.
+          </p>
+          <a
+            href="mailto:TODO@email.com"
+            className="mt-8 inline-block rounded-full bg-accent px-8 py-3 font-semibold text-ink transition hover:bg-white"
+          >
+            Book Now
+          </a>
+        </div>
+      </section>
+      <footer className="bg-ink text-sm text-white/80">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-8 md:flex-row md:justify-between">
+          <p>© {new Date().getFullYear()} {content.brand}</p>
+          <p>{content.office.address}</p>
+        </div>
+      </footer>
+    </>
+  );
+}
