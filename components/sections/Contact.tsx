@@ -19,7 +19,7 @@ export default function Contact() {
       </section>
       <footer className="bg-ink text-sm text-white/80">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-8 md:flex-row md:justify-between">
-          <p>© {new Date().getFullYear()} {content.brand}</p>
+          <p>© 2026 {content.brand}</p>
           <p>{content.office.address}</p>
         </div>
       </footer>
